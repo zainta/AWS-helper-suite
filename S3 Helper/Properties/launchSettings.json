@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "S3 Helper": {
+      "commandName": "Project",
+      "commandLineArgs": " -region us-east-1 -ensure \"adminsterfyv3-cf-lambda\" -bundle \"adminsterfyv3-cf-lambda\" -bundles \"E:\\Development\\Projects\\Adminsterfy\\github project\\v3\\adminsterfyv3-cloud\\Lambda\\NewUserSignupEmail\" "
+    }
+  }
+}

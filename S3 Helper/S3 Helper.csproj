@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>S3Helper</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.405.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelperHelp\HelperHelp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ReddWare">
+      <HintPath>..\..\Repos\ReddWare\ReddWare\bin\Debug\net6.0\ReddWare.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
